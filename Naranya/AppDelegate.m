@@ -7,17 +7,38 @@
 //
 
 #import "AppDelegate.h"
-
+#import "MFSideMenu.h"
 #import "ViewController.h"
+#import "SideMenuViewController.h"
 
 @implementation AppDelegate
 
+- (ViewController *)viewController {
+    return [[ViewController alloc] init];
+}
+
+- (UINavigationController *)navigationController {
+    return [[UINavigationController alloc]
+            initWithRootViewController:[self viewController]];
+}
+
+- (MFSideMenu *)sideMenu {
+    SideMenuViewController *leftSideMenuController = [[SideMenuViewController alloc] init];
+    UINavigationController *navigationController = [self navigationController];
+    
+    MFSideMenu *sideMenu = [MFSideMenu menuWithNavigationController:navigationController
+                                             leftSideMenuController:leftSideMenuController
+                                            rightSideMenuController:nil];
+    sideMenu.menuSlideAnimationEnabled = YES;
+    leftSideMenuController.sideMenu = sideMenu;
+    
+    return sideMenu;
+}
+
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
-{
+{    
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-    // Override point for customization after application launch.
-    self.viewController = [[ViewController alloc] initWithNibName:@"ViewController" bundle:nil];
-    self.window.rootViewController = self.viewController;
+    self.window.rootViewController = [self sideMenu].navigationController;
     [self.window makeKeyAndVisible];
     return YES;
 }

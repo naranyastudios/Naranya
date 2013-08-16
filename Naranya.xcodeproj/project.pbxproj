@@ -18,6 +18,19 @@
 		FFFF68F617BD2B9900C00ECD /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FFFF68F517BD2B9900C00ECD /* Default-568h@2x.png */; };
 		FFFF68F917BD2B9900C00ECD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FFFF68F817BD2B9900C00ECD /* ViewController.m */; };
 		FFFF68FC17BD2B9900C00ECD /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FFFF68FA17BD2B9900C00ECD /* ViewController.xib */; };
+		FFFF690817BD33EA00C00ECD /* MFSideMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = FFFF690517BD33EA00C00ECD /* MFSideMenu.m */; };
+		FFFF690917BD33EA00C00ECD /* UINavigationController+MFSideMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = FFFF690717BD33EA00C00ECD /* UINavigationController+MFSideMenu.m */; };
+		FFFF690C17BD373700C00ECD /* SideMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FFFF690B17BD373700C00ECD /* SideMenuViewController.m */; };
+		FFFF691117BD471300C00ECD /* back-arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = FFFF690F17BD471300C00ECD /* back-arrow.png */; };
+		FFFF691217BD471300C00ECD /* back-arrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FFFF691017BD471300C00ECD /* back-arrow@2x.png */; };
+		FFFF691517BD472200C00ECD /* menu-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = FFFF691317BD472200C00ECD /* menu-icon.png */; };
+		FFFF691617BD472200C00ECD /* menu-icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FFFF691417BD472200C00ECD /* menu-icon@2x.png */; };
+		FFFF692017BD804E00C00ECD /* TeamsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FFFF691E17BD804E00C00ECD /* TeamsViewController.m */; };
+		FFFF692117BD804E00C00ECD /* TeamsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FFFF691F17BD804E00C00ECD /* TeamsViewController.xib */; };
+		FFFF692617BD824700C00ECD /* Team.m in Sources */ = {isa = PBXBuildFile; fileRef = FFFF692517BD824700C00ECD /* Team.m */; };
+		FFFF692A17BD827D00C00ECD /* TeamDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FFFF692817BD827D00C00ECD /* TeamDetailViewController.m */; };
+		FFFF692B17BD827D00C00ECD /* TeamDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FFFF692917BD827D00C00ECD /* TeamDetailViewController.xib */; };
+		FFFF692F17BE705300C00ECD /* NSDictionary+Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = FFFF692E17BE705300C00ECD /* NSDictionary+Utils.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +50,26 @@
 		FFFF68F717BD2B9900C00ECD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		FFFF68F817BD2B9900C00ECD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		FFFF68FB17BD2B9900C00ECD /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		FFFF690417BD33EA00C00ECD /* MFSideMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MFSideMenu.h; sourceTree = "<group>"; };
+		FFFF690517BD33EA00C00ECD /* MFSideMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MFSideMenu.m; sourceTree = "<group>"; };
+		FFFF690617BD33EA00C00ECD /* UINavigationController+MFSideMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+MFSideMenu.h"; sourceTree = "<group>"; };
+		FFFF690717BD33EA00C00ECD /* UINavigationController+MFSideMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+MFSideMenu.m"; sourceTree = "<group>"; };
+		FFFF690A17BD373600C00ECD /* SideMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SideMenuViewController.h; sourceTree = "<group>"; };
+		FFFF690B17BD373700C00ECD /* SideMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SideMenuViewController.m; sourceTree = "<group>"; };
+		FFFF690F17BD471300C00ECD /* back-arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "back-arrow.png"; sourceTree = "<group>"; };
+		FFFF691017BD471300C00ECD /* back-arrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "back-arrow@2x.png"; sourceTree = "<group>"; };
+		FFFF691317BD472200C00ECD /* menu-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "menu-icon.png"; sourceTree = "<group>"; };
+		FFFF691417BD472200C00ECD /* menu-icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "menu-icon@2x.png"; sourceTree = "<group>"; };
+		FFFF691D17BD804D00C00ECD /* TeamsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TeamsViewController.h; sourceTree = "<group>"; };
+		FFFF691E17BD804E00C00ECD /* TeamsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TeamsViewController.m; sourceTree = "<group>"; };
+		FFFF691F17BD804E00C00ECD /* TeamsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TeamsViewController.xib; sourceTree = "<group>"; };
+		FFFF692417BD824700C00ECD /* Team.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Team.h; sourceTree = "<group>"; };
+		FFFF692517BD824700C00ECD /* Team.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Team.m; sourceTree = "<group>"; };
+		FFFF692717BD827D00C00ECD /* TeamDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TeamDetailViewController.h; sourceTree = "<group>"; };
+		FFFF692817BD827D00C00ECD /* TeamDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TeamDetailViewController.m; sourceTree = "<group>"; };
+		FFFF692917BD827D00C00ECD /* TeamDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TeamDetailViewController.xib; sourceTree = "<group>"; };
+		FFFF692D17BE705300C00ECD /* NSDictionary+Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+Utils.h"; sourceTree = "<group>"; };
+		FFFF692E17BE705300C00ECD /* NSDictionary+Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+Utils.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,11 +116,13 @@
 		FFFF68E517BD2B9900C00ECD /* Naranya */ = {
 			isa = PBXGroup;
 			children = (
+				FFFF692C17BE703400C00ECD /* Utilities */,
+				FFFF692317BD81CB00C00ECD /* Views */,
+				FFFF692217BD81C100C00ECD /* Objects */,
+				FFFF690D17BD46F800C00ECD /* Images */,
+				FFFF690217BD33CB00C00ECD /* Libraries */,
 				FFFF68EE17BD2B9900C00ECD /* AppDelegate.h */,
 				FFFF68EF17BD2B9900C00ECD /* AppDelegate.m */,
-				FFFF68F717BD2B9900C00ECD /* ViewController.h */,
-				FFFF68F817BD2B9900C00ECD /* ViewController.m */,
-				FFFF68FA17BD2B9900C00ECD /* ViewController.xib */,
 				FFFF68E617BD2B9900C00ECD /* Supporting Files */,
 			);
 			path = Naranya;
@@ -105,6 +140,80 @@
 				FFFF68F517BD2B9900C00ECD /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FFFF690217BD33CB00C00ECD /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				FFFF690317BD33D600C00ECD /* Side menu */,
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
+		FFFF690317BD33D600C00ECD /* Side menu */ = {
+			isa = PBXGroup;
+			children = (
+				FFFF690417BD33EA00C00ECD /* MFSideMenu.h */,
+				FFFF690517BD33EA00C00ECD /* MFSideMenu.m */,
+				FFFF690617BD33EA00C00ECD /* UINavigationController+MFSideMenu.h */,
+				FFFF690717BD33EA00C00ECD /* UINavigationController+MFSideMenu.m */,
+				FFFF690A17BD373600C00ECD /* SideMenuViewController.h */,
+				FFFF690B17BD373700C00ECD /* SideMenuViewController.m */,
+			);
+			name = "Side menu";
+			sourceTree = "<group>";
+		};
+		FFFF690D17BD46F800C00ECD /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				FFFF690E17BD46FE00C00ECD /* MFSideMenu */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		FFFF690E17BD46FE00C00ECD /* MFSideMenu */ = {
+			isa = PBXGroup;
+			children = (
+				FFFF690F17BD471300C00ECD /* back-arrow.png */,
+				FFFF691017BD471300C00ECD /* back-arrow@2x.png */,
+				FFFF691317BD472200C00ECD /* menu-icon.png */,
+				FFFF691417BD472200C00ECD /* menu-icon@2x.png */,
+			);
+			name = MFSideMenu;
+			sourceTree = "<group>";
+		};
+		FFFF692217BD81C100C00ECD /* Objects */ = {
+			isa = PBXGroup;
+			children = (
+				FFFF692417BD824700C00ECD /* Team.h */,
+				FFFF692517BD824700C00ECD /* Team.m */,
+			);
+			name = Objects;
+			sourceTree = "<group>";
+		};
+		FFFF692317BD81CB00C00ECD /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FFFF68F717BD2B9900C00ECD /* ViewController.h */,
+				FFFF68F817BD2B9900C00ECD /* ViewController.m */,
+				FFFF68FA17BD2B9900C00ECD /* ViewController.xib */,
+				FFFF691D17BD804D00C00ECD /* TeamsViewController.h */,
+				FFFF691E17BD804E00C00ECD /* TeamsViewController.m */,
+				FFFF691F17BD804E00C00ECD /* TeamsViewController.xib */,
+				FFFF692717BD827D00C00ECD /* TeamDetailViewController.h */,
+				FFFF692817BD827D00C00ECD /* TeamDetailViewController.m */,
+				FFFF692917BD827D00C00ECD /* TeamDetailViewController.xib */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		FFFF692C17BE703400C00ECD /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				FFFF692D17BE705300C00ECD /* NSDictionary+Utils.h */,
+				FFFF692E17BE705300C00ECD /* NSDictionary+Utils.m */,
+			);
+			name = Utilities;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -163,6 +272,12 @@
 				FFFF68F417BD2B9900C00ECD /* Default@2x.png in Resources */,
 				FFFF68F617BD2B9900C00ECD /* Default-568h@2x.png in Resources */,
 				FFFF68FC17BD2B9900C00ECD /* ViewController.xib in Resources */,
+				FFFF691117BD471300C00ECD /* back-arrow.png in Resources */,
+				FFFF691217BD471300C00ECD /* back-arrow@2x.png in Resources */,
+				FFFF691517BD472200C00ECD /* menu-icon.png in Resources */,
+				FFFF691617BD472200C00ECD /* menu-icon@2x.png in Resources */,
+				FFFF692117BD804E00C00ECD /* TeamsViewController.xib in Resources */,
+				FFFF692B17BD827D00C00ECD /* TeamDetailViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -176,6 +291,13 @@
 				FFFF68EC17BD2B9900C00ECD /* main.m in Sources */,
 				FFFF68F017BD2B9900C00ECD /* AppDelegate.m in Sources */,
 				FFFF68F917BD2B9900C00ECD /* ViewController.m in Sources */,
+				FFFF690817BD33EA00C00ECD /* MFSideMenu.m in Sources */,
+				FFFF690917BD33EA00C00ECD /* UINavigationController+MFSideMenu.m in Sources */,
+				FFFF690C17BD373700C00ECD /* SideMenuViewController.m in Sources */,
+				FFFF692017BD804E00C00ECD /* TeamsViewController.m in Sources */,
+				FFFF692617BD824700C00ECD /* Team.m in Sources */,
+				FFFF692A17BD827D00C00ECD /* TeamDetailViewController.m in Sources */,
+				FFFF692F17BE705300C00ECD /* NSDictionary+Utils.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "MFSideMenu.h"
 
 @interface ViewController ()
 
@@ -18,12 +19,22 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    
+    [self setTitle:@"Naranya"];
+    self.navigationItem.leftBarButtonItem = [self leftMenuBarButtonItem];
 }
 
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+- (UIBarButtonItem *)leftMenuBarButtonItem {
+    return [[UIBarButtonItem alloc]
+            initWithImage:[UIImage imageNamed:@"menu-icon.png"] style:UIBarButtonItemStyleBordered
+            target:self.navigationController.sideMenu
+            action:@selector(toggleLeftSideMenu)];
 }
 
 @end
